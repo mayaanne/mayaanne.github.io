@@ -18,11 +18,121 @@ body {
     font-family: 'Monsterrat', sans-serif;
 }
 
+
+.b1, .b2, .b3, .b4, .b5 {
+    display:inline-block;
+    position: relative;
+    margin: 5px;
+    float: left;
+    width: 16%;
+    height: 175px;
+    border-style: solid;
+    border-color: #4B0082;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    }
+
+.fun-fact-1 {
+    border-style: solid;
+    border-color: #4B0082;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    margin-right: 700px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.fun-fact-2 {
+    border-style: solid;
+    border-color: #4B0082;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    margin-right: 700px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+
+}
+
+.fun-fact-3 {
+    border-style: solid;
+    border-color: #4B0082;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    margin-right: 700px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.fun-fact-4 {
+    border-style: solid;
+    border-color: #4B0082;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    margin-right: 700px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.fun-fact-5 {
+    border-style: solid;
+    border-color: #4B0082;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    margin-right: 700px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+}
+
 a:-webkit-any-link {
     color: #4B0082;
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
+    border-style: solid;
+    border-color: #4B0082;
 }
 
 .paragraph-styling {
@@ -31,7 +141,8 @@ a:-webkit-any-link {
     margin-right: 100px;
     margin-top: 16px;
     margin-bottom: 45px;
-    border-style:solid;border-color: #4B0082;
+    border-style: solid;
+    border-color: #4B0082;
 }
 
 
@@ -45,7 +156,83 @@ a:-webkit-any-link {
 .placeholder-styling {
     margin-right: 200px;
     margin-left: 200px;
+    margin-top: 50px;
     padding-top: 25px;
     padding-bottom: 25px;
-    border-style:solid;border-color: #4B0082;
+    border-style: solid;
+    border-color: #4B0082;
 }
+
+.technical-blog {
+    padding-left: 50px;
+    border-right-width: 3px;
+    padding-right: 50px;
+    border-style: solid;
+    border-color: #4B0082;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.technical-blog-link {
+    padding-right: 100px;
+    padding-left: 100px;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #4B0082;
+    font-family: 'Shadows Into Light', cursive;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: #4B0082;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4B0082;
+    color: white;
+  }
+
+  a {
+    background-color: #ccc;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    background-color: #ccc;
+  }
+  
+  a:visited {
+    background-color: #ccc;
+  }
