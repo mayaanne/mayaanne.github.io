@@ -8,6 +8,16 @@ h1 {
     font-size: 100px;
 }
 
+h2 {
+    color: #4B0082;
+    text-align: center;
+    border-top-width: 50px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+}
+
 p {
     text-align: center;
     font-family: 'Monsterrat', sans-serif;
