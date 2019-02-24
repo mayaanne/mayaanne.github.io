@@ -114,7 +114,7 @@ a:-webkit-any-link {
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: center;
+    float: center%;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 50px;
